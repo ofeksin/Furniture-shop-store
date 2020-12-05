@@ -16,6 +16,7 @@ Open the `Server` directory and follow the instructions as seen below:
 2.	Create a new database
 3.	Make a copy of `.env.example` and change the new file name to `.env`
 4.	Set the database connection details in `.env` file
+5. 	Run the commands bellow:
 
 	``` sh
 	 php artisan key:generate
@@ -26,11 +27,10 @@ Open the `Server` directory and follow the instructions as seen below:
 	```
 
 ### Frontend:
-Open the `client` directory:
-
-	sh
+Open the `client` directory and tun the commands bellow:
+	```sh 
 	npm install
-	npm run serve
+	npm run serve```
 
 If you change the server port, follow the instruction below:
 
