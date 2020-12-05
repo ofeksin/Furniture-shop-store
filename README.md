@@ -27,19 +27,21 @@ Open the `Server` directory and follow the instructions as seen below:
 	```
 
 ### Frontend:
-Open the `client` directory and tun the following commands:
+Open the `client` directory and run the following commands:
 
 	
 	npm install
 	npm run serve
 	
 
-If you change the server port, follow the instruction below:
+If you change the server port, follow the instruction bellow:
 
 Open the `.env` file and change both of the variables:<br /><br />
 `VUE_APP_APIURL= http://localhost:<YOUR-SERVER-PORT>/api/`<br />
 `VUE_APP_STORAGE= http://localhost:<YOUR-SERVER-PORT>/images/`
 
+
+##Thank you!
 
 
 
