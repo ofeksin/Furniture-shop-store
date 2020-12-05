@@ -28,7 +28,7 @@ Open the "Server" directory and follow the instructions as seen below:
 
 ### Frontend:
 Open the "client" directory
-	```sh
+	``` sh
 	npm install
 	npm run serve```
 
