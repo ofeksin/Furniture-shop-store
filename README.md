@@ -11,11 +11,11 @@ All API End points documentation can be found at [this link](https://documenter.
 ## Installation and usage:
 
 ### Backend:
-Open the "Server" directory and follow the instructions as seen below:
+Open the `Server` directory and follow the instructions as seen below:
 1.	```composer install```
 2.	Create a new database
-3.	Make a copy of ".env.example" and change the new file name to ".env"
-4.	Set the database connection details in .env file
+3.	Make a copy of `.env.example` and change the new file name to `.env`
+4.	Set the database connection details in `.env` file
 
 	``` sh
 	 php artisan key:generate
@@ -25,19 +25,18 @@ Open the "Server" directory and follow the instructions as seen below:
 	 php artisan serve --port=88888
 	```
 
-
 ### Frontend:
-Open the "client" directory
-	``` sh
+Open the `client` directory:
+
+	```sh
 	npm install
-	npm run serve
-	```
+	npm run serve```
 
 If you change the server port, follow the instruction below:
 
 Open the .env file and change both of the variables:
-``VUE_APP_APIURL= http://localhost:<YOUR-SERVER-PORT>/api/``
-``VUE_APP_STORAGE= http://localhost:<YOUR-SERVER-PORT>/images/``
+`VUE_APP_APIURL= http://localhost:<YOUR-SERVER-PORT>/api/`
+`VUE_APP_STORAGE= http://localhost:<YOUR-SERVER-PORT>/images/`
 
 
 
