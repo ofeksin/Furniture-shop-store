@@ -1,4 +1,4 @@
-# VueJS & Larval Shopping cart
+# Furniture shop store
 
 
 Online Shopping Cart built with Laravel and VueJS using the RESTful API design.
