@@ -34,7 +34,7 @@ Open the `client` directory:
 
 If you change the server port, follow the instruction below:
 
-Open the .env file and change both of the variables:<br />
+Open the `.env` file and change both of the variables:<br /><br />
 `VUE_APP_APIURL= http://localhost:<YOUR-SERVER-PORT>/api/`<br />
 `VUE_APP_STORAGE= http://localhost:<YOUR-SERVER-PORT>/images/`
 
