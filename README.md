@@ -30,7 +30,8 @@ Open the "Server" directory and follow the instructions as seen below:
 Open the "client" directory
 	``` sh
 	npm install
-	npm run serve```
+	npm run serve
+	```
 
 If you change the server port, follow the instruction below:
 
